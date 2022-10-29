@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Digital Clock</title>
+  </head>
+  <body>
+    <h2>Digital Clock</h2>
+    <div class="clock">
+      <div>
+        <span id="hours">00</span>
+        <span class="text">Hours</span>
+      </div>
+      <div>
+        <span id="minutes">00</span>
+        <span class="text">Minutes</span>
+      </div>
+      <div>
+        <span id="seconds">00</span>
+        <span class="text">Seconds</span>
+      </div>
+      <div>
+        <span id="ampm">AM</span>
+      </div>
+    </div>
+    <div class="time-formate">
+      <h3>Time Formate</h3>
+      <div class="formate">
+        <label for="hours_12">
+          <input type="checkbox" id="hours_12" />12 Hours
+        </label>
+        <label for="hours_24">
+          <input type="checkbox" id="hours_24" />24 Hours
+        </label>
+      </div>
+    </div>
+    <script src="clock.js"></script>
+  </body>
+</html>
